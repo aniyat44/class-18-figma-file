@@ -1,0 +1,314 @@
+/* ========= Common css start ========== */
+:root{
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "PT Sans", sans-serif;
+}
+body{
+    font-family: var(--primary-font);
+}
+h1,h2,h3{
+    font-family: var(--secondary-font)
+}
+h1,h2,h3,h4,h5,h6,ol,ul,span,small{
+    padding: 0;
+    margin: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ========= Common css start ========== */
+
+
+/* =================== Header Part start ==================== */
+
+/* ========= Nav Bar css start ========== */
+
+#primary_nav #primary_menu ul li a {
+    color: #353535;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    text-transform: uppercase;
+    padding: 5px 28px;
+    margin-top:13px;
+    position: relative;
+}
+#primary_nav #primary_menu ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #353535;
+    bottom: 0;
+    right: 0;
+    transition: .6s;
+}
+#primary_nav #primary_menu ul li a:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+/* ========= Nav Bar css start ========== */
+
+/* =================== Header Part start ==================== */
+
+
+
+/* =================== Main Part start ==================== */
+
+/* ========= Hero Section css start ========== */
+
+#hero{
+    height: 887px;
+}
+#hero .row{
+    position: relative;
+}
+#hero .icon{
+    position: absolute;
+    left: 49%;
+    bottom: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+#hero .hero_info h4{
+    color: #353535;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#hero .hero_info h1{
+    color: #353535;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#hero .hero_info p{
+    padding: 26px 0;
+    color: #353535;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+}
+#hero .hero_info .anchor{
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background: #FC0;
+    padding: 16px 0px 15px 32px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    margin: 77px 40px 77px 0;
+    font-weight: 600;
+    line-height: 180%;
+    transition: .5s;
+}
+#hero .hero_info .anchor i{
+    color: #FFF;
+    padding: 0px 33px 0px 19px;
+    transition: .5s;
+}
+#hero .hero_info .anchor:hover{
+    color: #000;
+    background: #FFF;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+#hero .hero_info li {
+    color: #353535;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    padding-right: 15px;
+}
+#hero .hero_info li a{
+    color: #000;
+    padding-left: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; 
+}
+#hero .hero_info li a i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #F4F3F3;
+}
+#hero .hero_img img{
+    width: 110%;
+    transform: translateY(-10%) translateX(13%);
+}
+
+/* ========= Hero Section css start ========== */
+
+/* ========= About Section css start ========== */
+
+#about{
+    background: linear-gradient(95deg, #FC0 -21.46%, #FAFFCB 112.13%, #FAFFCB 112.13%);
+}
+#about .about_img img{
+    padding-top: 26px;
+    transform: translateX(-10%);
+}
+#about .about_info h2{
+    padding-top: 78px;
+    color: #353535;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#about .about_info p{
+    padding: 26px 0 30px;
+    color: #353535;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+}
+#about .about_info a{
+    color: #353535;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    border-radius: 20px;
+    border: 1px solid #000;
+    padding: 17px 44px;
+}
+
+/* ========= About Section css start ========== */
+
+/* ========= Box Section css start ========== */
+
+#box{
+    padding: 151px 0 181px;
+}
+#box .box_info img{
+    padding-top: 39px;
+}
+#box .box_info{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+}
+#box .box_info h4{
+    color: #353535;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    padding: 18px 107px 14px;
+}
+#box .box_info p{
+    padding: 0 47px 57px;
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%; 
+}
+
+/* ========= Box Section css start ========== */
+
+/* ========= Hero Section css start ========== */
+/* ========= Hero Section css start ========== */
+
+/* =================== Main Part start ==================== */
+
+
+
+/* =================== Footer Part start ==================== */
+
+/* =========  Footer css start ========== */
+footer{
+    background-image: url(./../img/footer_bg.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 71px 0 85px;
+}
+footer .footer_1 .col-lg-4 h2{
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%; 
+}
+footer .footer_1 .col-lg-4 p{
+    color: #BBB9B9;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+}
+footer .footer_1 .col-lg-4 .a{
+    border-radius: 16px;
+    background: #FC0;
+    padding: 16px 0px 15px 32px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+}
+footer .footer_1 .col-lg-4 .a i{
+    color: #FFF;
+    padding: 0px 33px 0px 19px;
+}
+footer .footer_1{
+    padding-bottom: 60px;
+}
+footer .footer_2 .col-lg-4 h6{
+    color: #BBB9B9;
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+}
+footer .footer_2 .col-lg-4 a{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+footer .footer_2 .col-lg-4 li{
+    color: #FFF;
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+}
+footer .footer_2 .col-lg-4 li a{
+    padding-left: 15px;
+}
+footer .footer_2 .col-lg-4 li a i{
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #484848;
+}
+
+/* =========  Footer css start ========== */
+
+/* =================== Footer Part start ==================== */
+
+
